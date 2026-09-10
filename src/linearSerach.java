@@ -2,9 +2,9 @@ import java.util.*;
 public class linearSerach {
     static void main(String[] args) {
         int[] arr = {1, 2, 4, 5, 8, 3, 14, 45, 87};
-        System.out.println(search(arr, 8, 0));
-        System.out.println(searchlast(arr,3,arr.length-1));
-        System.out.println(linearsearch(arr,14,0));
+        System.out.println(search(arr, 14, 0));
+        System.out.println(searchlast(arr,88,arr.length-1));
+        System.out.println(linearsearch(arr,3,0));
     }
 
     static int search(int[] arr, int target, int index) {
